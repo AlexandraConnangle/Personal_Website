@@ -1,0 +1,106 @@
+@media all and (max-device-width: 480px) {
+
+    /*------------- FONT SIZE --------------------*/
+    nav .name a {
+        font-size: 1.7em;
+    }
+
+    #menu a {
+        font-size: 1.6em;
+    }
+
+    h1 {
+        font-size: 3.5em;
+    }
+
+    #ability .technology-bloc h4 {
+        font-size: 1.4em;
+    }
+
+    .project-link,
+    .button-project {
+        font-size: 1.2em;
+    }
+
+    #ability .technology-bloc span {
+        font-size: 1.2em;
+    }
+
+    #presentation .info-contact a,
+    #presentation .info-contact span {
+        font-size: 1em;
+    }
+
+    #portfolio h3 {
+        font-size: 0.8em;
+    }
+
+    /*------------------- NAV ----------------------*/
+    nav .frame {
+        padding: 15px 30px;
+    }
+
+    #small-menu .line-menu-x1 {
+        margin-top: 10px;
+    }
+
+    #menu li {
+        line-height: 90px;
+    }
+
+    #small-menu-link {
+        top: 88px;
+    }
+
+    /*------------- ABILITY CONTENT ----------------*/
+    #ability li {
+        margin-top: 10px;
+    }
+
+    #ability h3 {
+        margin-top: 40px;
+    }
+
+    #ability .technology-bloc h4 {
+        margin-top: 20px;
+    }
+
+    #ability .technology-content {
+        margin: auto;
+    }
+
+    #ability .technology-bloc {
+        width: 32%;
+    }
+
+    #ability .technology-content div:nth-child(2) {
+        margin: 0px 10px;
+    }
+
+    #ability .technology-bloc span {
+        padding: 20px 17px;
+        min-height: 100px;
+        margin-bottom: 7px;
+    }
+
+    /*--------------- PORTFOLIO CONTENT --------------*/
+    .bloc-link {
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .project-link {
+        width: 75%;
+        padding: 25px;
+        margin: 0px auto 25px auto;
+    }
+
+    #portfolio {
+        min-height: 950px;
+        margin-bottom: 0px;
+    }
+
+    #portfolio h3 {
+        padding: 45px 30px;
+    }
+}

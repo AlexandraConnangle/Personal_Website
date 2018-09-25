@@ -1,0 +1,359 @@
+/*-------------------------------- GENERAL -------------------------------*/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*------------- HIDDEN ELEMENTS ----------------*/
+
+#small-menu-link,
+section,
+#diaporama {
+    opacity: 0;
+}
+
+#small-menu,
+#small-menu-link {
+    display: none;
+}
+
+#small-menu {
+    width: 50px;
+    height: 29px;
+    padding: 3px;
+}
+
+#small-menu-link {
+    position: absolute;
+    top: 85px;
+    right: 0px;
+    left: 0;
+    z-index: 5;
+}
+
+#small-menu .line-menu {
+    margin-bottom: 7px;
+}
+
+#small-menu .line-menu-x1 {
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-30deg);
+}
+
+#small-menu .line-menu-x2 {
+    -webkit-transform: rotate(45deg);
+    transform: rotate(30deg);
+}
+
+/*------------------------------------- BUTTONS ---------------------------*/
+
+.button-project {
+    position: absolute;
+    top: 253px;
+    left: 36px;
+    display: block;
+    width: 442px;
+    padding: 18px 20px;
+    margin: auto;
+    text-align: center;
+}
+
+.project-link {
+    display: block;
+    min-width: 150px;
+    padding: 15px 25px;
+    margin: 0px 5px;
+    text-align: center;
+}
+
+.bloc-link {
+    display: flex;
+    justify-content: space-between;
+    max-width: 350px;
+    margin: auto;
+}
+
+/*------------------------------------- HEADER ---------------------------*/
+
+/*------------------- NAV ----------------------*/
+
+nav {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 10;
+    width: 100%;
+}
+
+.frame {
+    display: flex;
+    align-items: center;
+    max-width: 1124px;
+    margin: auto;
+}
+
+nav .frame {
+    justify-content: space-between;
+    padding: 15px 20px;
+}
+
+nav .name {
+    margin: 15px 0px 15px 10px;
+}
+
+#menu ul {
+    display: flex;
+    list-style-type: none;
+}
+
+#menu a {
+    padding-bottom: 15px;
+    margin: 0px 15px;
+}
+
+/*---------------------- DIAPORAMA ---------------------*/
+
+#diaporama {
+    position: relative;
+    width: 514px;
+    height: auto;
+    margin: 0% auto 5% auto;
+}
+
+#diaporama > img {
+    display: block;
+    width: 100%;
+}
+
+#slide {
+    position: absolute;
+    top: 20px;
+    left: 36px;
+    display: block;
+    width: 442px;
+    height: 282px;
+    overflow: hidden;
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, 1);
+}
+
+#slide img {
+    position: relative;
+    bottom: 0px;
+    display: block;
+    width: 300%;
+}
+
+/*---------------------------------- BODY ---------------------------------*/
+
+/*---------------------- TITLE ---------------------*/
+
+h1 {
+    padding: 180px 10px 90px 10px;
+    margin: -10px 0px 0px 0px;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    width: 95%;
+    margin: 30px auto 15px auto;
+    padding-bottom: 4px;
+}
+
+/*---------------------- GENERAL CONTENT ---------------------*/
+
+section {
+    max-width: 1024px;
+    padding: 120px 10px 0px 10px;
+    margin: auto;
+}
+
+section .content {
+    text-align: justify;
+    padding: 3%;
+    margin: auto;
+}
+
+/*-------------------- PRESENTATION CONTENT --------------------*/
+
+#presentation .contact-bloc {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+}
+
+#presentation .contact-bloc img {
+    display: block;
+    max-width: 110px;
+    margin: 0px auto 20px auto;
+    box-shadow: 2px 1px 2px rgba(1,1,1,0.7);
+}
+
+#presentation .info-contact h4 {
+    margin-bottom: 3px;
+    margin-top: 0px;
+}
+
+#presentation .info-contact {
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+#presentation .presentation-bloc h4 {
+    display: block;
+    text-align: center;
+}
+
+#presentation .presentation-bloc {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: auto;
+}
+
+#presentation .profil-bloc,
+#presentation .job-bloc {
+    width: 50%;
+    padding: 15px 35px;
+    line-height: 19px;
+}
+
+#presentation .profil-bloc {
+    margin: 20px 30px 20px 0px;
+}
+
+#presentation .job-bloc {
+    margin: 20px 0px 20px 30px;
+}
+
+#presentation .profil-icon,
+#presentation .job-icone {
+    display: block;
+    margin: 15px auto;
+    text-align: center;
+}
+
+#presentation i {
+    margin: auto auto;
+}
+
+/*---------------------- ABILITY CONTENT ---------------------*/
+
+#ability .content {
+    display: flex;
+    justify-content: space-between;
+    line-height: 19px;
+}
+
+#ability .ability-bloc-one {
+    width: 38%;
+    text-align: left;
+}
+
+#ability .ability-bloc-two {
+    width: 58%;
+}
+
+#ability .ability-bloc-one li {
+    padding: 22px 18px 7px 10px;
+}
+
+#ability .ability-bloc-two li {
+    padding: 5px 18px 7px 10px;
+}
+
+#ability ul {
+    padding: 30px 20px 30px 50px;
+}
+
+#ability .technology-content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#ability .technology-bloc {
+    width: 30%;
+    text-align: center;
+}
+
+#ability .technology-bloc h4 {
+    margin-top: 0px;
+}
+
+#ability .technology-content div:nth-child(2) {
+    margin: 0px 10px;
+}
+
+#ability .technology-bloc span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    min-height: 70px;
+    padding: 7px 30px;
+    margin-bottom: 15px;
+}
+
+/*---------------------- PORTFOLIO CONTENT ---------------------*/
+
+#portfolio {
+    margin-bottom: 290px;
+}
+
+#portfolio h3 {
+    display: block;
+    width: auto;
+    border: none;
+    padding: 25px;
+    margin: 5px auto;
+    text-align: left;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+#portfolio h3 i {
+    position: relative;
+    bottom: 3px;
+    float: right;
+}
+
+#portfolio h4 {
+    text-align: center;
+}
+
+#portfolio .project-bloc {
+    display: block;
+    width: 100%;
+    padding: 0px 5px;
+    margin: auto;
+}
+
+#portfolio .project-content {
+    display: block;
+    padding: 10px 40px 10px 40px;
+    margin: auto;
+    margin-bottom: 0px;
+}
+
+#portfolio img {
+    display: block;
+    width: 100%;
+    max-width: 500px;
+    margin: 20px auto 45px auto;
+}

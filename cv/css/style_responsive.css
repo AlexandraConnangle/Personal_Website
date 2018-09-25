@@ -1,0 +1,97 @@
+@media all and (max-width: 1024px) {
+
+    /*---------------- HIDDEN ELEMENTS ----------------*/
+    #tall-menu-link {
+        display: none;
+    }
+
+    #small-menu,
+    #small-menu-link {
+        display: block;
+    }
+
+    /*------------------------ HEADER -----------------------*/
+    #menu ul {
+        flex-direction: column;
+        padding: 0px;
+        margin: 0px auto 20px auto;
+    }
+
+    #menu li {
+        line-height: 40px;
+        text-align: center;
+    }
+
+    h1 {
+        padding: 160px 10px 80px 10px;
+        margin: -10px 0px 0px 0px;
+    }
+
+    /*-------------------- PRESENTATION CONTENT --------------------*/
+    #presentation .presentation-bloc {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #presentation .profil-bloc,
+    #presentation .job-bloc {
+        width: 95%;
+        margin: 25px auto;
+    }
+
+    /*---------------------- ABILITY CONTENT ---------------------*/
+    #ability .content {
+        flex-direction: column;
+    }
+
+    #ability .ability-bloc-one,
+    #ability .ability-bloc-two {
+        width: 95%;
+        margin: auto;
+    }
+    
+    #ability .ability-bloc-one li {
+        padding: 5px 18px 7px 10px;
+    }
+}
+
+@media all and (max-width: 500px) {
+    
+    /*---------------------- HEADER ---------------------*/    
+
+    header {
+        background-image: linear-gradient( rgba(255, 255, 255, 1), rgba(255, 255, 255, 1));
+    }
+    
+    h1{
+        color:  rgba(139,53,61, 1);
+    }
+    
+    #diaporama {
+        display: none;
+    }
+
+    /*---------------------- ABILITY CONTENT ---------------------*/
+    #ability .technology-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #ability .technology-bloc {
+        width: 100%;
+    }
+
+    #ability .technology-bloc span {
+        min-height: 50px;
+    }
+
+    /*---------------------- PORTFOLIO CONTENT ---------------------*/
+    .bloc-link {
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .project-link {
+        margin: 5px auto;
+    }
+}

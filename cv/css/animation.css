@@ -1,0 +1,26 @@
+@keyframes animation-slide
+{
+    0%      {left:0%;}
+    30%      {left:0%;}
+    40%     {left:-100%;}
+    70%     {left:-100%;}
+    80%     {left:-200%;}
+    100%     {left:-200%;}
+}
+
+@keyframes animation-slide
+{
+    0%      {left:0%;}
+    30%      {left:0%;}
+    40%     {left:-100%;}
+    70%     {left:-100%;}
+    80%     {left:-200%;}
+    100%     {left:-200%;}
+}
+
+#slide img{
+    -webkit-animation: animation-slide 20s;
+    animation: animation-slide 20s;
+    animation-iteration-count:infinite;
+    animation-direction:alternate;
+}

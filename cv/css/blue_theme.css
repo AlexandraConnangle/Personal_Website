@@ -1,0 +1,233 @@
+/*------------- BOX SHADDOW ----------------*/
+
+.shadow-nav,
+#ability .technology-bloc span,
+#portfolio h3,
+#portfolio img,
+.project-link {
+    box-shadow: 1px 1px 2px rgba(30, 30, 30, 0.3);
+}
+
+/*------------- BORDER ----------------*/
+
+#small-menu .line-menu,
+#small-menu .line-menu-x1,
+#small-menu .line-menu-x2 {
+    border-bottom: 2px solid rgba(255, 255, 255, 1);
+}
+
+.project-link {
+    border-radius: 7px;
+}
+
+.button-project {
+    border-radius: 0px 0px 3px 3px;
+}
+
+/*------------- BACKGROUND COLORS ----------------*/
+
+nav {
+    background-image: linear-gradient( rgba(19,113,140, 1), rgba(23,128,149,0.95));
+}
+
+#small-menu-link {
+    background-image: linear-gradient( rgba(23,128,149,0.95), rgba(23,128,149,0.8));
+}
+
+header {
+    background-image: linear-gradient(rgba(19,113,140, 1), rgba(38,174,178,1), rgba(255, 255, 255, 1));
+}
+
+#ability ul,
+#presentation .profil-bloc,
+#presentation .job-bloc {
+    background-image: linear-gradient(rgba(255, 255, 255, 1), rgba(38,174,178, 0.1),rgba(14,122,152, 0.1));
+}
+
+/*
+.button-project{
+    background-color: rgba(1,147,185, 1);
+}
+*/
+
+.button-project,
+.project-link {
+    background-color: rgba(19,113,140, 1);
+}
+
+#project-one h3,
+#ability .technology-content div:nth-child(1) span {
+    background-color: rgba(19,113,140, 0.9);
+}
+
+#project-two h3,
+#ability .technology-content div:nth-child(2) span {
+    background-color: rgba(17,159,182, 1);
+}
+
+#project-three h3,
+#ability .technology-content div:nth-child(3) span {
+    background-color: rgba(38,174,178, 1);
+}
+
+#project-four h3 {
+    background-color: rgba(58,189,174, 1);
+}
+
+/*------------- TEXT COLORS ----------------------*/
+
+#ability .technology-content div:nth-child(1) h4 {
+    color: rgba(19,113,140, 0.9);
+}
+
+#ability .technology-content div:nth-child(2) h4 {
+    color: rgba(17,159,182, 1);
+}
+
+#ability .technology-content div:nth-child(3) h4 {
+    color: rgba(38,174,178, 1);
+}
+
+h2 {
+    color: rgba(19,113,140, 1);
+}
+
+h3,
+#presentation h4,
+#presentation i,
+#presentation .info-contact a {
+    color: rgba(23,128,149, 1);
+}
+
+h4,
+#presentation .contact-bloc h4,
+section .content li {
+    color: rgba(38,174,178, 1);
+}
+
+h1,
+nav .name a,
+#menu a,
+#portfolio h3,
+#ability .technology-bloc span,
+.button-project,
+.project-link {
+    color: rgba(255, 255, 255, 1);
+}
+
+section .content,
+section .content li span,
+#presentation .info-contact span {
+    color: rgba(60,60,60, 0.7);
+}
+
+/*------------- HOOVER COLORS --------------------*/
+
+nav .name a:hover,
+#menu a:hover {
+    color: rgba(192,228,237, 1);
+}
+
+#small-menu:hover .line-menu,
+#small-menu:hover .line-menu-x1,
+#small-menu:hover .line-menu-x2 {
+    border-color: rgba(192,228,237, 1);
+}
+
+#presentation .info-contact a:hover {
+    color: rgba(58,189,174, 1);
+}
+
+#portfolio h3:hover,
+.button-project:hover,
+.project-link:hover {
+    background-color: rgba(1,147,185, 1);
+}
+
+/*------------- FONT SIZE --------------------*/
+
+body {
+    font-size: 0.9em;
+}
+
+h1,
+#presentation i {
+    font-size: 4em;
+    word-wrap: break-word;
+}
+
+h2 {
+    font-size: 3.3em;
+    word-wrap: break-word;
+}
+
+h3 {
+    font-size: 1.4em;
+}
+
+h4 {
+    font-size: 1.2em;
+}
+
+footer .go-top,
+#portfolio h3 i {
+    font-size: 2em;
+}
+
+nav .name a {
+    font-size: 1.5em;
+}
+
+#portfolio h3,
+.project-title {
+    font-size: 1em;
+}
+
+#menu a,
+#presentation .info-contact a,
+#presentation .info-contact span,
+#ability .technology-content span,
+.project-link,
+.button-project {
+    font-size: 0.9em;
+}
+
+/*------------- FONT WEIGHT --------------------*/
+h1,
+h2,
+h3, 
+nav .name a,
+#menu a,
+#ability h4,
+#presentation h4,
+#presentation .presentation-bloc h4,
+#portfolio h3,
+.project-title,
+.button-project,
+.project-link {
+    font-weight: 700;
+}
+
+body{
+    font-weight: 400;
+}
+
+/*------------- FONT FAMILLY --------------------*/
+
+h1,
+h2,
+h3,
+h4,
+nav .name a,
+.project-title {
+    font-family: 'aileronblack', tahoma, sans-serif;
+}
+
+body,
+#menu a,
+#ability h4,
+#portfolio h3,
+.button-project,
+.project-link {
+    font-family: 'aileronsemibold', tahoma, sans-serif;
+}
