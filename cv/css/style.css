@@ -201,7 +201,7 @@ section .content {
     display: block;
     max-width: 110px;
     margin: 0px auto 20px auto;
-    box-shadow: 2px 1px 2px rgba(1,1,1,0.7);
+    box-shadow: 1px 1px 2px rgba(1,1,1,0.6);
 }
 
 #presentation .info-contact h4 {
