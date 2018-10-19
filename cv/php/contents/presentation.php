@@ -18,7 +18,7 @@
                 <div class="profil-text">
                     <h4> Qui suis-je ?</h4>
                     <p>
-                        Dans le cadre d'une reconversion professionnelle après huit ans d'experience dans les assurances, j'ai suivi une formation intensive de six mois en développement web. J'ai découvert un goût prononcé pour la programmation et souhaite en faire mon métier avec l'ambition de devenir full-stack.
+                        Dans le cadre d'une reconversion professionnelle, j'ai suivi une formation de développement web en ligne avec mentoring et ai découvert un goût prononcé pour la programmation. Souhaitant en faire mon métier avec l'ambition de devenir Full-Stack, j'ai rejoint l'école d'informatique IPI du groupe IGS afin de poursuivre mon parcours avec un programme plus approfondi.
                     </p>
                 </div>
             </div>
@@ -28,7 +28,7 @@
                 <div class="job-text">
                     <h4> Objectif professionnel</h4>
                     <p>
-                        Mes compétences devant être consolidées en milieu professionnel, je suis à la recherche d'une entreprise pour un contrat de professionnalisation en alternance. Mon objectif est de poursuivre mon apprentissage et parfaire mes acquis au sein d'une équipe de développeurs.
+                        Entamant une formation de "Conceptrice Développeuse d'application web mobile - Titre RNCP Niv II", je suis à la recherche d'une entreprise pour un contrat de professionnalisation en alternance. Mon objectif étant d'être polyvalente, je souhaite m'investir au sein d'une équipe de développeur pour étendre mes compétences et acquérir de bonnes pratiques. 
                     </p>
                 </div>
             </div>
