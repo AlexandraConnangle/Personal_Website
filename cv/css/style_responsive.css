@@ -49,24 +49,24 @@
         width: 95%;
         margin: auto;
     }
-    
+
     #ability .ability-bloc-one li {
         padding: 5px 18px 7px 10px;
     }
 }
 
 @media all and (max-width: 500px) {
-    
-    /*---------------------- HEADER ---------------------*/    
+
+    /*---------------------- HEADER ---------------------*/
 
     header {
-        background-image: linear-gradient( rgba(255, 255, 255, 1), rgba(255, 255, 255, 1));
+        background-image: linear-gradient(rgba(255, 255, 255, 1), rgba(255, 255, 255, 1));
     }
-    
-    h1{
-        color:  rgba(139,53,61, 1);
+
+    h1 {
+        color: rgba(139, 53, 61, 1);
     }
-    
+
     #diaporama {
         display: none;
     }

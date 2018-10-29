@@ -354,6 +354,6 @@ section .content {
 #portfolio img {
     display: block;
     width: 100%;
-    max-width: 500px;
+    max-width: 300px;
     margin: 20px auto 45px auto;
 }

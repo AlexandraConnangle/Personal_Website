@@ -28,15 +28,15 @@
 /*------------- BACKGROUND COLORS ----------------*/
 
 nav {
-    background-image: linear-gradient( rgba(35,7,76, 1), rgba(52,21,81,0.95));
+    background-image: linear-gradient(rgba(35, 7, 76, 1), rgba(52, 21, 81, 0.95));
 }
 
 #small-menu-link {
-    background-image: linear-gradient( rgba(52,21,81,0.95), rgba(52,21,81,0.8));
+    background-image: linear-gradient(rgba(52, 21, 81, 0.95), rgba(52, 21, 81, 0.8));
 }
 
 header {
-    background-image: linear-gradient( rgba(35,7,76, 1),50%, rgba(246,180,143,1), rgba(255, 255, 255, 1));
+    background-image: linear-gradient(rgba(35, 7, 76, 1), 50%, rgba(246, 180, 143, 1), rgba(255, 255, 255, 1));
 }
 
 #ability ul,
@@ -45,49 +45,53 @@ header {
     background-image: linear-gradient(rgba(255, 255, 255, 1), rgba(161, 131, 153, 0.11));
 }
 
-.button-project{
-    background-color: rgba(84,29,69, 1);
+.button-project {
+    background-color: rgba(84, 29, 69, 1);
 }
 
 .project-link {
-    background-color: rgba(58,18,74, 1);
+    background-color: rgba(58, 18, 74, 1);
 }
 
-#project-one h3,
-#ability .technology-content div:nth-child(1) span {
-    background-color: rgba(58,18,74, 0.9);
+#project-one h3 {
+    background-color: rgba(58, 18, 74, 0.9);
 }
 
 #project-two h3,
-#ability .technology-content div:nth-child(2) span {
-    background-color: rgba(109,40,66, 1);
+#ability .technology-content div:nth-child(1) span {
+    background-color: rgba(84, 29, 69, 1);
 }
 
 #project-three h3,
-#ability .technology-content div:nth-child(3) span {
-    background-color: rgba(161,64,58, 1);
+#ability .technology-content div:nth-child(2) span {
+    background-color: rgba(109, 40, 66, 1);
 }
 
-#project-four h3 {
+#project-four h3,
+#ability .technology-content div:nth-child(3) span {
+    background-color: rgba(161, 64, 58, 1);
+}
+
+#project-five h3 {
     background-color: rgba(202, 82, 51, 1);
 }
 
 /*------------- TEXT COLORS ----------------------*/
 
 #ability .technology-content div:nth-child(1) h4 {
-    color: rgba(58,18,74, 0.9);
+    color: rgba(58, 18, 74, 0.9);
 }
 
 #ability .technology-content div:nth-child(2) h4 {
-    color: rgba(109,40,66, 1);
+    color: rgba(109, 40, 66, 1);
 }
 
 #ability .technology-content div:nth-child(3) h4 {
-    color: rgba(161,64,58, 1);
+    color: rgba(161, 64, 58, 1);
 }
 
 h1 {
-    color: rgba(255,255,255, 1);
+    color: rgba(255, 255, 255, 1);
 }
 
 h2 {
@@ -125,13 +129,13 @@ section .content li span,
 
 nav .name a:hover,
 #menu a:hover {
-    color: rgba(195,197,231, 1);
+    color: rgba(195, 197, 231, 1);
 }
 
 #small-menu:hover .line-menu,
 #small-menu:hover .line-menu-x1,
 #small-menu:hover .line-menu-x2 {
-    border-color: rgba(195,197,231, 1);
+    border-color: rgba(195, 197, 231, 1);
 }
 
 #presentation .info-contact a:hover {
@@ -139,15 +143,15 @@ nav .name a:hover,
 }
 
 #portfolio h3:hover {
-    background-color: rgba(84,29,69, 1);
+    background-color: rgba(35, 7, 76, 0.9);
 }
 
-.button-project:hover{
-    background-color: rgba(58,18,74, 1);
+.button-project:hover {
+    background-color: rgba(58, 18, 74, 1);
 }
 
 .project-link:hover {
-    background-color: rgba(84,29,69, 1);
+    background-color: rgba(84, 29, 69, 1);
 }
 
 /*------------- FONT SIZE --------------------*/
@@ -200,7 +204,7 @@ nav .name a {
 /*------------- FONT WEIGHT --------------------*/
 h1,
 h2,
-h3, 
+h3,
 nav .name a,
 #menu a,
 #ability h4,
@@ -213,7 +217,7 @@ nav .name a,
     font-weight: 700;
 }
 
-body{
+body {
     font-weight: 400;
 }
 

@@ -32,7 +32,7 @@
                     <h4>Technologies</h4>
                     <span>HTML5, CSS3</span>
                     <span>JavaScript, jQuery, JSON</span>
-                    <span>Notions :<br/> PHP, SQL</span>
+                    <span>Notions :<br/> PHP, SQL, React</span>
                 </div>
                 <div class="technology-bloc">
                     <h4>Outils web</h4>

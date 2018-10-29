@@ -59,28 +59,34 @@
 
     #ability h3 {
         margin-top: 40px;
+        font-size: 2em;
     }
 
-    #ability .technology-bloc h4 {
-        margin-top: 20px;
+    #ability .ability-bloc-two h3 {
+        margin-top: 70px;
     }
 
     #ability .technology-content {
-        margin: auto;
+        flex-direction: column;
+        align-items: center;
     }
 
     #ability .technology-bloc {
-        width: 32%;
-    }
-
-    #ability .technology-content div:nth-child(2) {
-        margin: 0px 10px;
+        width: 100%;
     }
 
     #ability .technology-bloc span {
         padding: 20px 17px;
-        min-height: 100px;
-        margin-bottom: 7px;
+        min-height: 75px;
+    }
+
+    #ability .technology-bloc h4 {
+        margin-top: 20px;
+        font-size: 1.6em;
+    }
+
+    #ability .technology-content div:nth-child(2) {
+        margin: 0px 10px;
     }
 
     /*--------------- PORTFOLIO CONTENT --------------*/
@@ -101,6 +107,6 @@
     }
 
     #portfolio h3 {
-        padding: 45px 30px;
+        padding: 32px 22px 32px 32px;
     }
 }

@@ -56,11 +56,27 @@
                     <a href="http://www.simulateur.alexandra-connangle.net/" target="_blank" class="project-link">Voir le site</a>
                     <a href="https://github.com/AlexandraConnangle/battlefield_simulator_php" target="_blank" class="project-link">Voir  sur GitHub</a>
                 </div>
-                <h4>Découverte de la programmation objet avec PHP !</h4>
+                <h4>Découverte de la programmation objet avec PHP</h4>
                 <p>
                     Cet exercice est ma première réalisation PHP pour m'entraîner à la programmation orientée objet. Je le présente à titre de démonstration en sachant qu'il a besoin d'être amélioré, mais il reste fonctionnel et j'ai pris plaisir à le faire pour m'initier au PHP.
                 </p>
             </div>
         </div>
+        
+        <div id="project-five" class="project-bloc">
+            <h3 class="ascenseur"><span class="project-title"> REACTJS </span> : Générateur de citations <i class="fas fa-caret-right"></i></h3>
+            <div class="project-content">
+                <img src="cv/images/appli_react.jpg" alt="Image de l'application" />
+                <div class="bloc-link">
+                    <a href="http://www.generateur-citations.alexandra-connangle.net/" target="_blank" class="project-link">Voir le site</a>
+                    <a href="https://github.com/AlexandraConnangle/react_citations_generator.git" target="_blank" class="project-link">Voir  sur GitHub</a>
+                </div>
+                <h4>Découverte du Framework ReactJS</h4>
+                <p>
+                    Cet exercice est une première approche de ReactJS. Je l'ai réalisé par curiosité et il m'a permis de découvrir le JSX, le principe des composants, ainsi que l'utilisation du State et des Props. C'est un framework que je trouve intéressant pour programmer en JavaScript et je souhaite vivement l'approfondir.
+                </p>
+            </div>
+        </div>
+        
     </div>
 </section>
