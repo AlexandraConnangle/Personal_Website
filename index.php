@@ -13,7 +13,7 @@
             ?>
         </header>
         <?php 
-            include("cv/php/contents/presentation.php");
+            // include("cv/php/contents/presentation.php");
             include("cv/php/contents/ability.php");
             include("cv/php/contents/portfolio.php");
         ?>

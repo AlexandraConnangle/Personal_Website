@@ -3,7 +3,6 @@
     <div class="content">
 
         <div class="contact-bloc">
-            <img src="../../cv/images/miniature.jpg" alt="Photo Alexanda Connangle"/>
             <div class="info-contact">
                 <h4>Alexandra Connangle</h4>
                 <span>33 ans - Région Parisienne</span><br/>
